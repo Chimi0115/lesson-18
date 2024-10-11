@@ -13,15 +13,20 @@
     <body>
         <h2>carousel in bootstrap</h2>
         <div class="carousel slide" id="carousel1">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="carousel1" data-bs-slide-to="0" class="active" aria-label="0"></button>
+                <button type="button" data-bs-target="carousel1" data-bs-slide-to="1" aria-label="1"></button>
+                <button type="button" data-bs-target="carousel1" data-bs-slide-to="2"  aria-label="2"></button>
+            </div>
             <div class="carousel-inner">
                 <div class="carousel-item active ">
-                    <img src="download.png" alt="image1" height="300px;">
+                    <img src="download.png" alt="image1" height="300px;" width="1000px;">
                 </div>
                 <div class="carousel-item ">
-                    <img src="photo_2024-10-06_10-07-29.jpg" alt="image2" height="300px;">
+                    <img src="photo_2024-10-06_10-07-29.jpg" alt="image2" height="300px;" width="1000px;">
                 </div>
                 <div class="carousel-item ">
-                    <img src="photo_2024-09-23_16-30-44.jpg" alt="image3" height="300px;">
+                    <img src="photo_2024-09-23_16-30-44.jpg" alt="image3" height="300px;" width="1000px";>
                 </div>
             </div>
             <button type="button" class="carousel-control-prev" data-bs-target="#carousel1" data-bs-slide="prev">
